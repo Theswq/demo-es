@@ -8,11 +8,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-/**
-* ES配置类
-* @author      gyl
-* @date        2020/5/6 10:50
-*/
+
 @Component
 @PropertySource("classpath:application.yaml")
 public class ElasticsearchConfig {

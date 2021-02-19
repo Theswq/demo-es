@@ -12,11 +12,7 @@ import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
-/**
-* elasticsearch客户端装饰类
-* @author      gyl
-* @date        2020/5/6 10:53
-*/
+
 public class ESClientDecorator implements InitializingBean, DisposableBean {
     private RestHighLevelClient restHighLevelClient;
 
