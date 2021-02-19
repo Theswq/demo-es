@@ -1,0 +1,4 @@
+elasticsearch:
+  clusterNodes: 127.0.0.1:9200
+  userName:
+  passWord:
